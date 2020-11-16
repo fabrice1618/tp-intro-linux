@@ -31,26 +31,22 @@ Le shell (coquille) est une interface permetttant d’accéder au noyau (kernel)
 
 #### INTRODUCTION
 
-```
 Tout processus Unix/Linux démarre avec 3 flux déjà ouverts :
-```
 - un pour l’ **entrée des données** (canal 0)
 - un pour la **sortie des données** (canal 1)
 - un pour les **messages d’erreur** (canal 2)
 
-```
 Remarque : un processus (identifié par un PID) est un programme en cours d’exécution.
-```
-```
+
 Par défaut, ces flux sont :
-```
+
 - 0 : le **clavier** ( _stdin_ : _standard input_ )
 - 1 : l’ **écran** ( _stdout_ : _standard output_ )
 - 2 :/dev/null( _stderr_ : _standard error_ )
 
-```
+
 Il est possible de rediriger ces flux (en utilisant les opérateurs<,>,<<et>>). Un tube (|) est un canal entre deux processus (redirection de la sortie d’un processus vers l’entrée d’un autre processus).
-```
+
 ### Les Fichiers « texte »
 
 On distingue en général deux types de fichiers : **texte** et **binaire**.
