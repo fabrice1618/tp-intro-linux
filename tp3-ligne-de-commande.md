@@ -1,7 +1,6 @@
 # TP3 Ligne de commande
 
-Les objectifs de ce tp sont d’être capable, en utilisant des commandes de base sous GNU/-
-Linux, de se déplacer dans une arborescence de fichiers et lister son contenu, d’obtenir des
+Les objectifs de ce tp sont d’être capable, en utilisant des commandes de base sous GNU/Linux, de se déplacer dans une arborescence de fichiers et lister son contenu, d’obtenir des informations sur le système d’exploitation.
 
 ## Introduction
 
